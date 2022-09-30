@@ -34,5 +34,8 @@ module RailsOpenIdProvider
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    # for docker container. 
+    config.hosts << 'host.docker.internal'
   end
 end
