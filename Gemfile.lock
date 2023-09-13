@@ -127,6 +127,7 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
+  arm64-darwin-21
   x86_64-darwin-19
   x86_64-darwin-20
 
@@ -134,4 +135,4 @@ DEPENDENCIES
   rails
 
 BUNDLED WITH
-   2.2.21
+   2.3.7
